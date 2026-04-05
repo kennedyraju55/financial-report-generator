@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 350" width="800" height="350">
+  <defs>
+    <linearGradient id="featBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="featAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fb8500;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ffb703;stop-opacity:1"/>
+    </linearGradient>
+    <filter id="cardShadow">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="350" rx="12" fill="url(#featBg)"/>
+
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffffff">Core Features</text>
+  <rect x="340" y="42" width="120" height="2" rx="1" fill="url(#featAccent)" opacity="0.6"/>
+
+  <!-- Row 1 -->
+  <!-- Card 1: Financial Metrics Engine -->
+  <g filter="url(#cardShadow)">
+    <rect x="30" y="65" width="235" height="120" rx="10" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <rect x="30" y="65" width="235" height="4" rx="2" fill="#fb8500"/>
+    <circle cx="60" cy="100" r="18" fill="#fb8500" opacity="0.15"/>
+    <text x="60" y="106" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fb8500">⚙️</text>
+    <text x="90" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#e6edf3">Metrics Engine</text>
+    <text x="50" y="128" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">Total, average, min, max, latest</text>
+    <text x="50" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">for every numeric column</text>
+    <text x="50" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fb8500">compute_financial_metrics()</text>
+  </g>
+
+  <!-- Card 2: Ratio Analysis -->
+  <g filter="url(#cardShadow)">
+    <rect x="283" y="65" width="235" height="120" rx="10" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <rect x="283" y="65" width="235" height="4" rx="2" fill="#fb8500"/>
+    <circle cx="313" cy="100" r="18" fill="#fb8500" opacity="0.15"/>
+    <text x="313" y="106" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fb8500">📊</text>
+    <text x="343" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#e6edf3">Ratio Analysis</text>
+    <text x="303" y="128" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">Profit margin, expense ratio,</text>
+    <text x="303" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">operating margin, growth rate</text>
+    <text x="303" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fb8500">compute_ratios()</text>
+  </g>
+
+  <!-- Card 3: Period Comparison -->
+  <g filter="url(#cardShadow)">
+    <rect x="536" y="65" width="235" height="120" rx="10" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <rect x="536" y="65" width="235" height="4" rx="2" fill="#fb8500"/>
+    <circle cx="566" cy="100" r="18" fill="#fb8500" opacity="0.15"/>
+    <text x="566" y="106" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fb8500">🔄</text>
+    <text x="596" y="103" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#e6edf3">Period Comparison</text>
+    <text x="556" y="128" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">Compare any two periods with</text>
+    <text x="556" y="145" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">absolute &amp; percentage changes</text>
+    <text x="556" y="165" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fb8500">compare_periods()</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- Card 4: Linear Regression Forecasting -->
+  <g filter="url(#cardShadow)">
+    <rect x="30" y="205" width="235" height="120" rx="10" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <rect x="30" y="205" width="235" height="4" rx="2" fill="#fb8500"/>
+    <circle cx="60" cy="240" r="18" fill="#fb8500" opacity="0.15"/>
+    <text x="60" y="246" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fb8500">🔮</text>
+    <text x="90" y="243" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#e6edf3">Forecasting</text>
+    <text x="50" y="268" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">Linear regression projection</text>
+    <text x="50" y="285" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">for N future periods (y=mx+b)</text>
+    <text x="50" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fb8500">forecast_metrics()</text>
+  </g>
+
+  <!-- Card 5: Executive Summary -->
+  <g filter="url(#cardShadow)">
+    <rect x="283" y="205" width="235" height="120" rx="10" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <rect x="283" y="205" width="235" height="4" rx="2" fill="#fb8500"/>
+    <circle cx="313" cy="240" r="18" fill="#fb8500" opacity="0.15"/>
+    <text x="313" y="246" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fb8500">📋</text>
+    <text x="343" y="243" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#e6edf3">Executive Summary</text>
+    <text x="303" y="268" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">LLM-generated concise summary</text>
+    <text x="303" y="285" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">for board-level presentation</text>
+    <text x="303" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fb8500">generate_executive_summary()</text>
+  </g>
+
+  <!-- Card 6: Cash Flow Narrative -->
+  <g filter="url(#cardShadow)">
+    <rect x="536" y="205" width="235" height="120" rx="10" fill="#21262d" stroke="#30363d" stroke-width="1"/>
+    <rect x="536" y="205" width="235" height="4" rx="2" fill="#fb8500"/>
+    <circle cx="566" cy="240" r="18" fill="#fb8500" opacity="0.15"/>
+    <text x="566" y="246" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="18" fill="#fb8500">💰</text>
+    <text x="596" y="243" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="bold" fill="#e6edf3">Cash Flow Narrative</text>
+    <text x="556" y="268" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">LLM-powered cash flow analysis</text>
+    <text x="556" y="285" font-family="'Segoe UI', Arial, sans-serif" font-size="11" fill="#8b949e">with inflows, outflows, liquidity</text>
+    <text x="556" y="305" font-family="'Segoe UI', Arial, sans-serif" font-size="10" fill="#fb8500">generate_cash_flow_narrative()</text>
+  </g>
+</svg>
