@@ -1,0 +1,30 @@
+model:
+  name: "gemma3"
+  temperature: 0.3
+  max_tokens: 4000
+
+report_sections:
+  - executive_summary
+  - revenue_analysis
+  - expense_analysis
+  - ratio_analysis
+  - cash_flow
+  - forecast
+  - recommendations
+
+ratios:
+  profit_margin: true
+  expense_ratio: true
+  revenue_growth: true
+  operating_margin: true
+
+forecast:
+  periods_ahead: 3
+  method: "linear"
+
+currency: "USD"
+currency_symbol: "$"
+
+logging:
+  level: "INFO"
+  file: "financial_reporter.log"
